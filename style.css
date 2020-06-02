@@ -1,0 +1,16 @@
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+.infoBar {
+    display: flex;
+    justify-content: space-between;
+
+}
+.inputbutton {
+    display: table;
+    height: 25px;
+    vertical-align: middle;
+}
+
