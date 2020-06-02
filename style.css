@@ -50,3 +50,8 @@ main section {
     width: 100%;
     background-color: lightgray;
 }
+
+fieldset {
+    margin: 0;
+    padding: 0;
+}
