@@ -1,3 +1,6 @@
+body {
+    background-color: grey;
+}
 
 header {
     display: flex;
@@ -6,11 +9,44 @@ header {
 .infoBar {
     display: flex;
     justify-content: space-between;
-
+    
 }
 .inputbutton {
-    display: table;
     height: 25px;
-    vertical-align: middle;
+    margin: auto 20px;
 }
 
+.inputbutton input {
+    background-color: blue;
+    color: white;
+}
+
+.form-footer p {
+    font-size: small;
+}
+
+.form-content {
+    display: inline-block;
+    flex-direction: column;
+}
+
+form {
+    width: 600px;
+    height: 500px;
+    margin-top: 60px;
+}
+
+form fieldset {
+    background-color: white;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+}
+
+.form-footer {
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+}
