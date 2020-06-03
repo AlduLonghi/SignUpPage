@@ -44,8 +44,8 @@ form {
 fieldset{
     width: 30%;
     background-color: white;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
     padding-block-start: 0;
     padding-inline-start: 0;
     padding-inline-end: 0;
@@ -55,17 +55,17 @@ fieldset{
 
 .form-input-button {
     width: 100%;
-    margin: 10px 10px;
+    
     text-align: center;
 }
 
 .form-input-button input {
-    width: 78%;
+    width: 80%;
     height: 40px;
     font-size: 18px;
     background-color: #0077C5;
     color: white;
-    padding: 0 0;
+    
 }
 
 .form-header {
@@ -97,4 +97,29 @@ fieldset{
     height: 100%;
     width: 100%;
 }
+
+.anchor-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.anchor-container a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+.anchor-container :hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#Descriptions{
+    text-align: center;
+}
+
+
+
 
