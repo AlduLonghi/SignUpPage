@@ -87,12 +87,17 @@ fieldset{
 }
 
 .form-content div {
-    padding: 10px 55px;
+    padding: 10px 30px;
     text-align: left;
 }
 
 .form-end {
    text-align: center;
+   margin-top: 40px;
+}
+
+.form-end p {
+    line-height: 1.5;
 }
 
 .form-footer {
@@ -104,6 +109,8 @@ fieldset{
 
 .form-footer p {
     margin-left: 10px;
+    line-height: 1.5;
+    
 }
 
 .anchor-container {
