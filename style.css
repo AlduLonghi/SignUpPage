@@ -1,5 +1,6 @@
 body {
     background-color: #ECEEF1;
+    color: #B2B2B1;
 }
 
 .infoBar {
@@ -31,7 +32,7 @@ body {
 }
 
 main {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 form {
@@ -42,7 +43,7 @@ form {
 }
 
 fieldset{
-    width: 30%;
+    width: 20%;
     background-color: white;
     margin-inline-start: 0;
     margin-inline-end: 0;
@@ -51,6 +52,9 @@ fieldset{
     padding-inline-end: 0;
     padding-block-end: 0;
     text-align: start;
+    border-radius: 2px;
+    box-shadow: none;
+    border: 1px solid #c7c7c7;
 }
 
 .form-input-button {
@@ -98,6 +102,10 @@ fieldset{
     width: 100%;
 }
 
+.form-footer p {
+    margin-left: 10px;
+}
+
 .anchor-container {
     margin-top: 25px;
     display: block;
@@ -122,6 +130,23 @@ fieldset{
     white-space: pre-wrap
 }
 
+.Main-header div {
+    text-align: center;
+    color: #B2B2B1;
+}
 
+.Header-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Header-logos img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
 
 
