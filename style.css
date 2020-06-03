@@ -1,3 +1,7 @@
+body {
+    background-color: #ECEEF1;
+}
+
 .infoBar {
     display: flex;
     width: 100%;
@@ -39,5 +43,28 @@ form {
 
 fieldset{
     width: 30%;
+    background-color: white;
+}
+
+.form-input-button {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.form-input-button input {
+    width: 82%;
+    height: 40px;
+    font-size: 18px;
+    background-color: #0077C5;
+    color: white;
+}
+
+.form-content input {
+    width: 70%;
+    padding: 15px 25px;
+}
+
+.form-content div {
+    padding: 10px 15px;
 }
 
