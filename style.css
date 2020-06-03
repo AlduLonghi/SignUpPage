@@ -44,19 +44,37 @@ form {
 fieldset{
     width: 30%;
     background-color: white;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+    text-align: start;
 }
 
 .form-input-button {
     width: 100%;
-    margin: 10px 0px;
+    margin: 10px 10px;
+    text-align: center;
 }
 
 .form-input-button input {
-    width: 82%;
+    width: 78%;
     height: 40px;
     font-size: 18px;
     background-color: #0077C5;
     color: white;
+    padding: 0 0;
+}
+
+.form-header {
+    text-align: center;
+}
+
+.form-content {
+    margin: 10px 10px;
+    text-align: center;
 }
 
 .form-content input {
@@ -65,6 +83,18 @@ fieldset{
 }
 
 .form-content div {
-    padding: 10px 15px;
+    padding: 10px 37px;
+    
+}
+
+.form-end {
+   text-align: center;
+}
+
+.form-footer {
+    padding-top: 10px;
+    background-color: #ECEEF1;
+    height: 100%;
+    width: 100%;
 }
 
