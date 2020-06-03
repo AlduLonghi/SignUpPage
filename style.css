@@ -83,8 +83,8 @@ fieldset{
 }
 
 .form-content div {
-    padding: 10px 37px;
-    
+    padding: 10px 55px;
+    text-align: left;
 }
 
 .form-end {
@@ -100,8 +100,8 @@ fieldset{
 
 .anchor-container {
     margin-top: 25px;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     
 }
 
@@ -118,6 +118,8 @@ fieldset{
 
 #Descriptions{
     text-align: center;
+    color: #505050;
+    white-space: pre-wrap
 }
 
 
