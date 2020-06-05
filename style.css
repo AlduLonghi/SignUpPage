@@ -55,6 +55,7 @@ fieldset{
     border-radius: 2px;
     box-shadow: none;
     border: 1px solid #c7c7c7;
+    height: 100%;
 }
 
 .form-input-button {
@@ -97,7 +98,10 @@ fieldset{
 }
 
 .form-end p {
+    
     line-height: 1.5;
+    font-size: smaller;
+    margin: 10px 15px;
 }
 
 .form-footer {
@@ -154,6 +158,11 @@ fieldset{
     width: 20px;
     margin-right: 5px;
     margin-left: 10px;
+}
+
+#intuit {
+    height: 50px;
+    width: 100px;
 }
 
 
