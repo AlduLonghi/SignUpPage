@@ -1,5 +1,7 @@
 # Project Name
 
+# Sign Up Page Clone
+
 > This project consists of building an HTML document that matches the appearance of mint.com’s signup page
 
 ![screenshot](./assets/SignUpFormScreenShoot.png)
@@ -24,20 +26,6 @@ The point is to make it look like the real page as much as you reasonably can.
 
 
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
 
 ## Authors
 
