@@ -79,12 +79,14 @@ fieldset{
 
 .form-input-button button {
     width: 80%;
-    height: 40px;
+    height: 60px;
     font-size: 18px;
     background-color: #0077C5;
     color: white;
     border-radius: 6px;
     border: none;
+ 
+   
 }
 
 .form-header {
@@ -99,7 +101,7 @@ fieldset{
 }
 
 .form-content input {
-    width: 70%;
+    width: 80%;
     padding: 15px 25px;
 }
 
@@ -184,22 +186,20 @@ fieldset{
     width: 100px;
 }
 
-.password {
-    display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 10px, 30px;
-  width: 100%;
-}
-
 .password label {
     width: 100%;
 }
 
-.password span {
-    position: absolute;
-    text-align: right;
-    margin-left: 90px;
+.password input {
+    background: url(./assets/pwd-lock.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
+
+
+
+
+
+
+
 
