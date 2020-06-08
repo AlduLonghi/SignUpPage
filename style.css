@@ -1,0 +1,205 @@
+body {
+    background-color: #ECEEF1;
+    color: #4C4C4C ;
+}
+
+.infoBar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end; 
+    height: 60%;
+    font-size: 12px;
+}
+
+.infoBar>div {
+    padding: 0 15px;
+}
+
+.infoBar div p {
+    line-height: 0.5;
+}
+
+.inputbutton {
+    width: 6%;
+    margin-right: 20px;
+}
+
+.inputbutton button {
+    height: 100%;
+    width: 100%;
+    background-color: #0077C5;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid;
+    font-size: 14px;
+    
+   
+}
+
+
+button > span, button > span > img {
+  vertical-align: middle;
+ 
+}
+
+
+
+
+main {
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items: center;
+}
+
+fieldset{
+    width: 20%;
+    background-color: white;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+    text-align: start;
+    border-radius: 2px;
+    box-shadow: none;
+    border: 1px solid #c7c7c7;
+    height: 100%;
+}
+
+.form-input-button {
+    width: 100%;
+    text-align: center;
+}
+
+.form-input-button button {
+    width: 80%;
+    height: 60px;
+    font-size: 18px;
+    background-color: #0077C5;
+    color: white;
+    border-radius: 6px;
+    border: none;
+ 
+   
+}
+
+.form-header {
+    text-align: center;
+    color: rgb(76, 76, 76);
+}
+
+.form-content {
+    margin: 10px 10px;
+    text-align: center;
+    color: rgb(76, 76, 76);
+}
+
+.form-content input {
+    width: 80%;
+    padding: 15px 25px;
+}
+
+.form-content div {
+    padding: 10px 30px;
+    text-align: left;
+}
+
+.form-end {
+   text-align: center;
+   margin-top: 40px;
+}
+
+.form-end p {
+    
+    line-height: 1.5;
+    font-size: smaller;
+    margin: 10px 15px;
+}
+
+.form-footer {
+    padding-top: 10px;
+    background-color: #ECEEF1;
+    height: 100%;
+    width: 100%;
+}
+
+.form-footer p {
+    margin-left: 25px;
+    line-height: 1.2;
+    font-size: 12px;
+    
+}
+
+.anchor-container {
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+.anchor-container a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+.anchor-container :hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#Descriptions{
+    text-align: center;
+    color: #505050;
+    white-space: pre-wrap;
+    font-size: 14px;
+}
+
+.Main-header div {
+    text-align: center;
+    color: #B2B2B1;
+}
+
+.Header-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Header-logos img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+#intuit {
+    height: 50px;
+    width: 100px;
+}
+
+.password label {
+    width: 100%;
+}
+
+.password input {
+    background: url(./assets/pwd-lock.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+
+
+
+
+
