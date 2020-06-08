@@ -1,12 +1,14 @@
 body {
     background-color: #ECEEF1;
-    color: #B2B2B1;
+    color: #4C4C4C ;
 }
 
 .infoBar {
     display: flex;
     width: 100%;
     justify-content: flex-end; 
+    height: 60%;
+    font-size: 12px;
 }
 
 .infoBar>div {
@@ -18,18 +20,26 @@ body {
 }
 
 .inputbutton {
-    width: 8%;
+    width: 6%;
+    margin-right: 20px;
 }
 
 .inputbutton button {
-    height: 90%;
+    height: 100%;
     width: 100%;
     background-color: #0077C5;
     color: white;
-    border-radius: 4px;
+    border-radius: 6px;
     border: 1px solid;
-    font-size: 16px;
-    display: flex;
+    font-size: 14px;
+    
+   
+}
+
+
+button > span, button > span > img {
+  vertical-align: middle;
+ 
 }
 
 
@@ -64,26 +74,28 @@ fieldset{
 
 .form-input-button {
     width: 100%;
-    
     text-align: center;
 }
 
-.form-input-button input {
+.form-input-button button {
     width: 80%;
     height: 40px;
     font-size: 18px;
     background-color: #0077C5;
     color: white;
-    
+    border-radius: 6px;
+    border: none;
 }
 
 .form-header {
     text-align: center;
+    color: rgb(76, 76, 76);
 }
 
 .form-content {
     margin: 10px 10px;
     text-align: center;
+    color: rgb(76, 76, 76);
 }
 
 .form-content input {
@@ -116,8 +128,9 @@ fieldset{
 }
 
 .form-footer p {
-    margin-left: 10px;
-    line-height: 1.5;
+    margin-left: 25px;
+    line-height: 1.2;
+    font-size: 12px;
     
 }
 
@@ -125,6 +138,7 @@ fieldset{
     margin-top: 25px;
     display: block;
     text-align: center;
+    font-size: 14px;
     
 }
 
@@ -142,7 +156,8 @@ fieldset{
 #Descriptions{
     text-align: center;
     color: #505050;
-    white-space: pre-wrap
+    white-space: pre-wrap;
+    font-size: 14px;
 }
 
 .Main-header div {
@@ -169,4 +184,22 @@ fieldset{
     width: 100px;
 }
 
+.password {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px, 30px;
+  width: 100%;
+}
+
+.password label {
+    width: 100%;
+}
+
+.password span {
+    position: absolute;
+    text-align: right;
+    margin-left: 90px;
+}
 
